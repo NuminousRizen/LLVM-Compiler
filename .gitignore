@@ -1,0 +1,28 @@
+﻿# IntelliJ IDEA specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Scala and SBT build artifacts
+target/
+project/target/
+*.class
+*.log
+.cache/
+.history/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Metals / Bloop / Scala CLI
+.bsp/
+.bloop/
+.metals/
+.scala-build/
+project/metals.sbt
+
+# Scala 3 specific
+.tasty/
