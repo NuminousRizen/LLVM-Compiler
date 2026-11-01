@@ -1,28 +1,44 @@
-﻿# IntelliJ IDEA specific
+﻿target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
-.idea/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Scala and SBT build artifacts
-target/
-project/target/
-*.class
-*.log
-.cache/
-.history/
-dist/*
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Metals / Bloop / Scala CLI
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Scala ###
 .bsp/
-.bloop/
-.metals/
-.scala-build/
-project/metals.sbt
-
-# Scala 3 specific
-.tasty/
